@@ -27,7 +27,7 @@ body {
 .box {
     text-align: center;
     margin: auto;
-    display: inline-block;
+    display: inline-block; 
     box-sizing: border-box;
     width: 75%;
 }
