@@ -25,30 +25,25 @@ html, body {
   margin: 0 auto -105px;
 }
 
-footer, .push {
-  height: 105px;
-  bottom: 0;
-}
-
 #logo:hover, input[type=submit]:hover {
-  background: hotpink;
-  transition-duration: 1s;
+  background: maroon;
+  transition: .5s;
 }
 
 nav a:hover {
-  color: hotpink;
-  transition-duration: 1s;
+  color: maroon;
+  transition-duration: .5s;
 }
 
 .banner:hover {
-  color: hotpink;
-  transition-duration: 1s;
+  color: maroon;
+  transition-duration: .5s;
 }
 
 .social:hover {
   cursor: pointer;
   opacity: 0.8;
-  transition-duration: 1s;
+  transition-duration: .5s;
 }
 
 /* end hover styling */
@@ -60,7 +55,6 @@ nav a:hover {
   max-width: 960px;
   margin: auto;
   clear: both;
-  transition-duration: 1s;
 }
 
 h1, h2, h3, p {
@@ -115,7 +109,6 @@ h2, h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
-  transition-duration: 1s;
   width: 100%;
 }
 
@@ -124,7 +117,6 @@ nav {
   width: 50%;
   text-align: center;
   margin-top: 20px;
-  transition-duration: .3s;
   color: #4aaaa5;
 }
 
@@ -141,16 +133,18 @@ nav a {
 
 nav a:first-child {
   border-left: 0 none;
-  transition-duration: 1s;
 }
 
 /* footer */
 
 footer {
+  position: fixed;
+  bottom: 0;
   padding: 10px;
   clear: both;
   font-size: 12px;
   width: 100%;
+  height: 5vh;
   color: #fff;
   color: #ccc;
   text-align: center;
@@ -190,7 +184,6 @@ h3, .sidebar h2 {
 
 .social:last-child {
   margin-right: 0;
-  transition-duration: 1s;
 }
 
 /* main */
@@ -306,7 +299,7 @@ h4 {
 
 .row-title {
   text-align: center;
-  color: hotpink;
+  color: maroon;
 }
 
 p {
@@ -314,11 +307,11 @@ p {
 }
 
 h3 {
-  color: hotpink;
+  color: maroon;
 }
 
 #resume {
-  color: hotpink;
+  color: maroon;
   transition-duration: .5s;
 }
 
@@ -328,15 +321,20 @@ h3 {
 }
 
 .card-text, .card-header {
-  color: hotpink;
+  color: maroon;
 }
 
 .card {
   background-color: rgb(90, 120, 140);
 }
 
-@media only screen and (max-width: 500px) {
-#logo{font-size: 8vw;}
-.navbutton {font-size: 6vw}
 
+@media only screen and (max-width: 810px) {
+#logo{font-size: 4vw;}
+.navbutton {font-size: 3vw;}
 }
+
+@media only screen and (max-width: 767px) {
+  #logo{font-size: 8vw;}
+  .navbutton {font-size: 6vw;}
+  }
