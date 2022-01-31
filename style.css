@@ -226,35 +226,6 @@ h3, .sidebar h2 {
   transition-duration: .5s;
 }
 
-/* Portfolio */
-
-.work {
-  box-sizing: border-box;
-  position: relative;
-  max-width: 100%;
-  width: 100%;
-  margin: 0;
-  overflow: hidden;
-}
-
-.work h3 {
-  position: absolute;
-  bottom: 36px;
-  width: 100%;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
-  margin: 0;
-}
-
-.thumb {
-  float: left;
-  width: 100%;
-}
 
 /* contact page */
 
@@ -362,4 +333,10 @@ h3 {
 
 .card {
   background-color: rgb(90, 120, 140);
+}
+
+@media only screen and (max-width: 500px) {
+#logo{font-size: 8vw;}
+.navbutton {font-size: 6vw}
+
 }
